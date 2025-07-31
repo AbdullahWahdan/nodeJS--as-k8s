@@ -16,3 +16,11 @@ This project demonstrates deploying a Node.js app on Kubernetes using:
 | 3  | Expose with LoadBalancer   | Write a Service manifest of type LoadBalancer to route external traffic to your Pods. Apply it and confirm that an external IP is assigned and serving your app. | Service YAML and confirmation that the application is reachable via the LoadBalancer endpoint. |
 | 4  | Implement Rolling Updates  | Configure the Deployment’s update strategy to use rolling updates with controlled surge and availability parameters. Trigger an image version change and observe the rollout. | Updated Deployment manifest showing rolling‑update settings and documentation of the update rollout. |
 
+## 👥 Team Members
+
+| Name                         |
+|------------------------------|
+| Abdullah Mohamed Wahdan      |
+| Karim Farid Abdelhamed       |
+| Abdelrahman Tamer Mohamed Salah |
+| Laila Khaled Muhammad        |
