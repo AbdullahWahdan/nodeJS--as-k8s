@@ -16,20 +16,22 @@ This project demonstrates deploying a Node.js app on Kubernetes using:
 | 3  | Expose with LoadBalancer   | Write a Service manifest of type LoadBalancer to route external traffic to your Pods. Apply it and confirm that an external IP is assigned and serving your app. | Service YAML and confirmation that the application is reachable via the LoadBalancer endpoint. |
 | 4  | Implement Rolling Updates  | Configure the Deployment’s update strategy to use rolling updates with controlled surge and availability parameters. Trigger an image version change and observe the rollout. | Updated Deployment manifest showing rolling‑update settings and documentation of the update rollout. |
 
+## 📁 Project Structure
+
 nodejs-k8s-deployment/
 │
 ├── manifests/
-│   ├── 1-deployment.yaml               # Node.js Deployment manifest
-│   ├── 2-pvc.yaml                      # PersistentVolumeClaim manifest
-│   ├── 3-service.yaml                  # LoadBalancer Service manifest
-│   └── 4-deployment-rolling.yaml      # Deployment with rolling update settings
+│ ├── 1-deployment.yaml # Node.js Deployment manifest
+│ ├── 2-pvc.yaml # PersistentVolumeClaim manifest
+│ ├── 3-service.yaml # LoadBalancer Service manifest
+│ └── 4-deployment-rolling.yaml # Deployment with rolling update settings
 │
-├── app/                                # (Optional) Sample Node.js "Hello World" app
-│   ├── server.js
-│   └── package.json
+├── app/ # (Optional) Sample Node.js "Hello World" app
+│ ├── server.js
+│ └── package.json
 │
 ├── README.md
-└── rollout-log.txt                     # Logs or screenshots showing rollout progress
+└── rollout-log.txt # Logs or screenshots showing rollout progress
 
 
 ## 👥 Team Members
