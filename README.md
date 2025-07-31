@@ -30,7 +30,17 @@ This project demonstrates deploying a Node.js app on Kubernetes using:
   - `README.md`  
   - `rollout-log.txt` – Logs or screenshots showing rollout progress
 
+## 🐳 Docker Image
 
+This project uses the prebuilt Docker image:
+
+aw033/nodejs-hello
+
+You can test it locally with:
+
+```bash
+docker pull aw033/nodejs-hello
+docker run -p 3000:3000 aw033/nodejs-hello
 
 ## 👥 Team Members
 
