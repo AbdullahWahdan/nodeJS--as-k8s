@@ -18,20 +18,20 @@ This project demonstrates deploying a Node.js app on Kubernetes using:
 
 ## 📁 Project Structure
 
-nodejs-k8s-deployment/
-│
-├── manifests/
-│ ├── 1-deployment.yaml # Node.js Deployment manifest
-│ ├── 2-pvc.yaml # PersistentVolumeClaim manifest
-│ ├── 3-service.yaml # LoadBalancer Service manifest
-│ └── 4-deployment-rolling.yaml # Deployment with rolling update settings
-│
-├── app/ # (Optional) Sample Node.js "Hello World" app
-│ ├── server.js
-│ └── package.json
-│
-├── README.md
-└── rollout-log.txt # Logs or screenshots showing rollout progress
+## 📁 Project Structure
+
+- **nodejs-k8s-deployment/**
+  - **manifests/**
+    - `1-deployment.yaml` – Node.js Deployment manifest  
+    - `2-pvc.yaml` – PersistentVolumeClaim manifest  
+    - `3-service.yaml` – LoadBalancer Service manifest  
+    - `4-deployment-rolling.yaml` – Deployment with rolling update settings  
+  - **app/** – *(Optional)* Sample Node.js "Hello World" app  
+    - `server.js`  
+    - `package.json`  
+  - `README.md`  
+  - `rollout-log.txt` – Logs or screenshots showing rollout progress
+
 
 
 ## 👥 Team Members
