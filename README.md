@@ -18,8 +18,6 @@ This project demonstrates deploying a Node.js app on Kubernetes using:
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 - **nodejs-k8s-deployment/**
   - **manifests/**
     - `1-deployment.yaml` – Node.js Deployment manifest  
