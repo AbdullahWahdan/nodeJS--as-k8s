@@ -26,7 +26,7 @@ This project demonstrates deploying a Node.js app on Kubernetes using:
     - `4-deployment-rolling.yaml` – Deployment with rolling update settings  
   - **app/** – *(Optional)* Sample Node.js "Hello World" app  
     - `server.js`  
-    - `package.json`  
+    - `Dockerfile`  
   - `README.md`  
   - `rollout-log.txt` – Logs or screenshots showing rollout progress
 ## 🐳 Docker Image
