@@ -20,7 +20,8 @@ This project demonstrates deploying a Node.js app on Kubernetes using:
 
 - **nodejs-k8s-deployment/**
   - **manifests/**
-    - `1-deployment.yaml` – Node.js Deployment manifest  
+    - `1-deployment.yaml` – Node.js Deployment manifest
+    - `1.1 run.sh` – bash file to run deployment commands for Req.1
     - `2-pvc.yaml` – PersistentVolumeClaim manifest  
     - `3-service.yaml` – LoadBalancer Service manifest  
     - `4-deployment-rolling.yaml` – Deployment with rolling update settings  
