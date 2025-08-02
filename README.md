@@ -24,8 +24,13 @@ This project demonstrates deploying a Node.js app on Kubernetes using:
     - `1.1 run.sh` – bash file to run deployment commands for Req.1
     - `2-pvc.yaml` – PersistentVolumeClaim manifest  
     - `3-service.yaml` – LoadBalancer Service manifest  
-    - `4-deployment-rolling.yaml` – Deployment with rolling update settings  
-  - **app/** – *(Optional)* Sample Node.js "Hello World" app  
+    - `4-updated-deployment.yaml` – Deployment with rolling update settings
+  - **Tasks/**
+    - `Task 1` – screenshots and provided files
+    - `Task 2` – screenshots and provided files
+    - `Task3` – screenshots and provided files
+    - `Task4` – screenshots and provided files
+  - **app/** – sample Node.js "Hello World" app  
     - `server.js`  
     - `Dockerfile`  
   - `README.md`  
@@ -34,13 +39,14 @@ This project demonstrates deploying a Node.js app on Kubernetes using:
 
 This project uses the prebuilt Docker image:
 
-*aw033/nodejs-hello*
+*karimzakzouk/nodejs-hello:latest*
+*karimzakzouk/nodejs-hello:v2* - updated version for task 4
 
 You can test it locally with:
 
 ```bash
-docker pull aw033/nodejs-hello:v1
-docker run -p 3000:3000 aw033/nodejs-hello:v1
+docker pull karimzakzouk/nodejs-hello:latest
+docker run -p 3000:3000 karimzakzouk/nodejs-hello:latest
 
 
 
