@@ -39,8 +39,8 @@ This project demonstrates deploying a Node.js app on Kubernetes using:
 
 This project uses the prebuilt Docker image:
 
-*karimzakzouk/nodejs-hello:latest*
-*karimzakzouk/nodejs-hello:v2* - updated version for task 4
+- *karimzakzouk/nodejs-hello:latest*
+- *karimzakzouk/nodejs-hello:v2* - updated version for task 4
 
 You can test it locally with:
 
