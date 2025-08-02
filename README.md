@@ -39,8 +39,8 @@ This project uses the prebuilt Docker image:
 You can test it locally with:
 
 ```bash
-docker pull aw033/nodejs-hello
-docker run -p 3000:3000 aw033/nodejs-hello
+docker pull aw033/nodejs-hello:v1
+docker run -p 3000:3000 aw033/nodejs-hello:v1
 
 
 
